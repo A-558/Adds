@@ -2,7 +2,6 @@
 
 import numpy as np
 import pandas as pd
-from matplotlib import pyplot as plt
 import pickle 
 data=pd.read_csv("C:\\Users\\AKammari\\Downloads\\advertising.csv")
 dataset = pd.DataFrame(data)
