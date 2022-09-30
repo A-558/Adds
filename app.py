@@ -28,7 +28,7 @@ def predict():
 
     #output = prediction[0]
  
-    return render_template('index2.html', prediction_text='The sales of the product by the adds {} %'.format(prediction))
+    return render_template('index2.html', prediction_text='The sales of the product by the adds {}'.format(prediction))
 
 
 if __name__ == "__main__":
